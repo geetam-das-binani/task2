@@ -27,11 +27,11 @@ Install Express and Mongoose:
 
 npm install express mongoose
 
-Step 2: Create the Express Server:
+## Step 2: Create the Express Server:
 
 Create an index.js file in the root of your project
 
-Step 3: Set Up MongoDB Atlas
+## Step 3: Set Up MongoDB Atlas
 
 1.Sign in to MongoDB Atlas.
 
@@ -42,7 +42,7 @@ Step 3: Set Up MongoDB Atlas
 
 5.Go to the "Clusters" tab, and click "Connect". Choose "Connect your application" and copy the connection string provided.
 
-Step 4: Connect to MongoDB Atlas
+## Step 4: Connect to MongoDB Atlas
 
 1.Install the dotenv package to manage environment variables:
 
@@ -54,7 +54,7 @@ MONGODB_URI=mongodb+srv://your-username:your-password@cluster0.mongodb.net/your-
 
 Replace username and password and database name with your MongoDB Atlas credentials.
 
-Step 5: Run the Application
+## Step 5: Run the Application
 
 1.Start the server:
 
